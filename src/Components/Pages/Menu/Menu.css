@@ -1,0 +1,58 @@
+.menu_banner_bg{
+    background: url(https://i.ibb.co/t20hRVq/banner3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.menu_banner_bg::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #2e2e53;
+    opacity: .4;
+    z-index: -1
+}
+
+
+
+
+/* Dessarts Bg */
+
+.bg_dessarts{
+    background: url(https://i.ibb.co/ZhLJcpN/chef-service.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg_dessarts::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #2e2e53;
+    opacity: .4;
+    z-index: -1
+}
+
+

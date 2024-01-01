@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Inter:wght@300;400;500&family=Playpen+Sans:wght@300;400;500;600&display=swap');
+
+
+
+.order_food_bg{
+    background: url(https://i.ibb.co/VYMrZ2t/banner2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.order_food_bg::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #2e2e53;
+    opacity: .4;
+    z-index: -1
+}
+
+
+.bg_font{
+    font-family: 'Inter', sans-serif;
+}

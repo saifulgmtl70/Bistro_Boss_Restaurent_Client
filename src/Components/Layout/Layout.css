@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Playpen+Sans:wght@300;400;500;600&display=swap');
+
+.main_font{
+    font-family: 'Cinzel Decorative', serif;
+}
+
+.header_font{
+    font-family: 'Playpen Sans', cursive;
+}

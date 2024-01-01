@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Inter:wght@300;400;500&family=Playpen+Sans:wght@300;400;500;600&display=swap');
+
+.bg_banner{
+    background: url(https://i.ibb.co/ZhLJcpN/chef-service.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.bg_banner::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #2e2e53;
+    opacity: .4;
+    z-index: -1
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin-top: 20px;
+  }
+
+
+
+  .fetaured_bg{
+    background: url(https://i.ibb.co/R72XgvX/featured.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.fetaured_bg::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #2e2e53;
+  opacity: .4;
+  z-index: -1
+}
+
+
+.recomend, .review{
+  font-family: 'Inter', sans-serif;
+}
